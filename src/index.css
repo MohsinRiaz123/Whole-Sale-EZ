@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+
+/* Import Mulish Font from Google Fonts */
+
+/* Apply the font globally */
+body {
+  font-family: "Mulish", sans-serif; /* Fallback to sans-serif */
+}
+
+/* Optional: you can also apply it to html */
+html {
+  font-family: "Mulish", sans-serif;
+}
+
+/* CSS */
+.custom-scroll::-webkit-scrollbar {
+  display: none; /* Hide scrollbar on Webkit browsers */
+}
+
+.custom-scroll {
+  -ms-overflow-style: none; /* Hide scrollbar on IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar on Firefox */
+}
